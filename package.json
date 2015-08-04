@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/takoba/style-guideline-prototype/issues"
   },
-  "homepage": "https://github.com/takoba/style-guideline-prototype#readme"
+  "homepage": "https://github.com/takoba/style-guideline-prototype#readme",
+  "devDependencies": {
+    "gulp-load-plugins": "^0.10.0"
+  }
 }
