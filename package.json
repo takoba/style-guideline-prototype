@@ -1,0 +1,19 @@
+{
+  "name": "style-guideline-prototype",
+  "version": "0.0.0",
+  "description": "٩( 'ω' )و",
+  "main": "sample/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takoba/style-guideline-prototype.git"
+  },
+  "author": "takoba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takoba/style-guideline-prototype/issues"
+  },
+  "homepage": "https://github.com/takoba/style-guideline-prototype#readme"
+}
