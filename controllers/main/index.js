@@ -11,10 +11,11 @@
   // -- define / local variables
 
   // -- settings
+  exports.engine = 'ejs';
 
   // -- actions
   exports.index = function(req, res, next) {
-    res.send('/');
+    res.render('index');
   };
 
 })((this || 0).self || global);
