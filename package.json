@@ -16,6 +16,9 @@
     "url": "https://github.com/takoba/style-guideline-prototype/issues"
   },
   "homepage": "https://github.com/takoba/style-guideline-prototype#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
   "devDependencies": {
     "gulp-load-plugins": "^0.10.0"
   }
