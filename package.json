@@ -2,9 +2,9 @@
   "name": "style-guideline-prototype",
   "version": "0.0.0",
   "description": "٩( 'ω' )و",
-  "main": "sample/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,15 @@
     "url": "https://github.com/takoba/style-guideline-prototype/issues"
   },
   "homepage": "https://github.com/takoba/style-guideline-prototype#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1"
+  },
   "devDependencies": {
     "gulp-load-plugins": "^0.10.0"
   }
