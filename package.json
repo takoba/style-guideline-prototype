@@ -21,11 +21,14 @@
     "ejs": "^2.3.3",
     "express": "^4.13.3",
     "express-session": "^1.11.3",
+    "extend": "^3.0.0",
     "jade": "^1.11.0",
     "method-override": "^2.3.5",
     "morgan": "^1.6.1"
   },
   "devDependencies": {
-    "gulp-load-plugins": "^0.10.0"
+    "gulp-cached": "^1.1.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-sass": "^2.0.4"
   }
 }
