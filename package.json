@@ -27,6 +27,8 @@
     "morgan": "^1.6.1"
   },
   "devDependencies": {
-    "gulp-load-plugins": "^0.10.0"
+    "gulp-cached": "^1.1.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-sass": "^2.0.4"
   }
 }
