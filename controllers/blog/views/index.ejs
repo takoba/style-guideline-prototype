@@ -10,5 +10,25 @@
   <h1>blog</h1>
 </header>
 
+<section class="entry-list">
+  <div class="entry-list__list">
+<% entries.forEach(function(entry) { %>
+    <article id="entry_<%= entry.id %>" class="entry">
+      <header class="entry__header">
+        <h1 class="entry__title"><%= entry.title %></h1>
+      </header>
+      <section class="entry__image-box">
+        <img src="<%= entry.image %>" alt="<%= entry.title %>" />
+      </section>
+      <section class="entry__text">
+  <% entry.text.split(/\n/).forEach(function(paragraph) { %>
+        <p><%= paragraph %></p>
+  <% }) %>
+      </section>
+    </article>
+<% }) %>
+  </div>
+</section>
+
 </body>
 </html>
