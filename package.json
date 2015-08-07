@@ -29,6 +29,7 @@
   "devDependencies": {
     "gulp-cached": "^1.1.0",
     "gulp-load-plugins": "^0.10.0",
-    "gulp-sass": "^2.0.4"
+    "gulp-sass": "^2.0.4",
+    "node-dev": "^2.6.2"
   }
 }
