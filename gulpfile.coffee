@@ -18,3 +18,6 @@ gulp.task 'styles', ->
       style: 'expanded'
     })
     .pipe gulp.dest filepaths.css.dst
+
+gulp.task 'watch', ->
+  gulp.watch filepaths.css.src, ['styles']
