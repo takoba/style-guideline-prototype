@@ -1,0 +1,49 @@
+
+html {
+  overflow-y : scroll;
+}
+
+.entry-list {
+  width: 100%;
+
+  &__list {
+
+  }
+}
+
+.entry {
+
+  // -- layout
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+
+  // -- decoration
+  border-bottom: 1px dashed #666;
+
+  &__header {
+    border-bottom: 1px solid #666;
+  }
+
+  &__title {
+    margin-bottom: 0.25em;
+  }
+
+  &__image-box {
+    width: 100%;
+    margin: 8px auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__text {
+    p {
+
+    }
+  }
+}
+
+.recently-entry-list {
+
+}
