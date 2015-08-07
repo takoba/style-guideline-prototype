@@ -32,6 +32,16 @@
   </div>
 </section>
 
+<aside>
+  <section class="recent-entry-list">
+    <h1>最新記事一覧</h1>
+    <ul>
+<% entries.forEach(function(entry) { %>
+      <li><a href="/blog/#entry_<%= entry.id %>"><%= entry.title %></a></li>
+<% }) %>
+    </ul>
+</aside>
+
 <footer class="footer">
   <p class="footer__copyrights-text">Copyright © 2015 takoba, All rights reserved.</p>
 </footer>
