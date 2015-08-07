@@ -4,7 +4,8 @@
   "description": "٩( 'ω' )و",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/forever start ./index.js -l ./logs/express.access.log"
+    "start": "./node_modules/.bin/forever start ./index.js -l ./logs/express.access.log",
+    "stop": "./node_modules/.bin/forever stop ./index.js"
   },
   "repository": {
     "type": "git",
