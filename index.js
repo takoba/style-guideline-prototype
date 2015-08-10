@@ -8,7 +8,7 @@
 
   // -- dependency modules
   var express        = require('express');
-  var logger         = require('morgan');
+  var morgan         = require('morgan');
   var session        = require('express-session');
   var bodyParser     = require('body-parser');
   var methodOverride = require('method-override');
@@ -40,7 +40,7 @@
   };
 
   // log
-  if (!module.parent) app.use(logger('dev'));
+  if (!module.parent) app.use(morgan('dev'));
 
   // serve static files
   app.use(express.static(__dirname + '/public'));
