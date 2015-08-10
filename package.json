@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "FOREVER_ROOT=$PWD/forever forever -a -l ./../logs/express.log start ./index.js",
-    "stop": "FOREVER_ROOT=$PWD/forever forever stop ./index.js"
+    "stop": "FOREVER_ROOT=$PWD/forever forever stop ./index.js",
+    "ps": "FOREVER_ROOT=$PWD/forever forever list"
   },
   "repository": {
     "type": "git",
