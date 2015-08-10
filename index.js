@@ -40,7 +40,7 @@
   };
 
   // log
-  if (!module.parent) app.use(morgan('dev'));
+  if (!module.parent) app.use(morgan('default'));
 
   // serve static files
   app.use(express.static(__dirname + '/public'));
