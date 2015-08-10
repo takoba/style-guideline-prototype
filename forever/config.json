@@ -1,0 +1,17 @@
+{
+  "root": "/Users/usr0200381/.ghq/github.com/takoba/style-guideline-prototype/forever",
+  "pidPath": "/Users/usr0200381/.ghq/github.com/takoba/style-guideline-prototype/forever/pids",
+  "sockPath": "/Users/usr0200381/.ghq/github.com/takoba/style-guideline-prototype/forever/sock",
+  "loglength": 100,
+  "logstream": false,
+  "columns": [
+    "uid",
+    "command",
+    "script",
+    "forever",
+    "pid",
+    "id",
+    "logfile",
+    "uptime"
+  ]
+}
